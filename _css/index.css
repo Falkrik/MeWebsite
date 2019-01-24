@@ -1,0 +1,119 @@
+/*CSS-Dokument*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #0f3066;
+}
+
+#BG {
+	width: 100%; 
+	image-rendering: pixelated;
+}
+
+#Fade {
+	width: 100%; 
+	position: absolute; 
+	top: 21%;
+}
+
+#Logotype {
+	position: absolute;
+	top: 25%; 
+	left: 20%; 
+	width: 60%;
+}
+
+
+
+#MiddleLine {
+	border-top: 0.2vh solid #bbb77770;
+	border-bottom: 0.2vh solid #bbb77770;
+	background-color: #003377;
+	height: 7vh;
+	width: 75%;
+	margin: auto;
+
+	position: relative;
+	margin-top: -13vh;
+	margin-bottom: -60px;
+
+
+}
+
+#MiddleLine p{
+	margin-top: -9vh;
+	text-align: center;
+
+	font-size: 3vw;
+	color: #999;
+	font-family: Calibri, sans-serif;
+	letter-spacing: 1vw;
+}
+
+#MiddleLine ul{
+	list-style: none;
+	text-align: center;
+}
+
+#MiddleLine li {
+	display: inline;
+}
+
+#MiddleLine input {
+	border: none;
+	background-color: #FFFFFF00;
+	outline-width: 0px;
+	cursor: pointer;
+
+	color: #FFF;
+	font-size: 2vw;
+	width: 13vw;
+	line-height: 7vh;
+}
+
+#MiddleLine a {
+	cursor: pointer;
+	padding-left: 2vw;
+	padding-right: 2vw;
+
+	color: #FFF;
+	font-size: 2vw;
+	font-family: Calibri, sans-serif;
+	line-height: 9vh;
+}
+
+#BigFrame {
+	width: 100%;
+	height: 300px;
+	border: 0px; 
+	margin-top: 20vh;
+}
+
+
+#Footer {
+	width: 100%;
+	height: 30vh;
+	background-color: #002255;
+	border-top: 3px solid #bbb77750;
+
+	font-size: 1.5vw;
+	font-family: Calibri, sans-serif;
+	color: #446677;
+	text-align: center;
+	
+}
+
+#Footer img {
+	cursor: pointer;
+	margin-top: 4vh;
+	margin-bottom: 3vh;
+	width: 30vw;
+}

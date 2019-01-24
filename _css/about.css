@@ -1,0 +1,97 @@
+/*CSS-Dokument*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+}
+
+#HeaderBox {
+	width: 100%; 
+	height: 50px;
+
+	margin: auto;
+	margin-bottom: 20px;
+
+	color: #FFF;
+	font-size: 50px;
+	font-family: Calibri, sans-serif;
+	text-align: center;
+	line-height: 50px;
+}
+
+.RowBox {
+	width: 1005px;
+	height: 300px;
+
+	margin-left: 7vw;
+}
+
+.TitleBox {
+	border-top: 2px solid #bbb77790; 
+	border-bottom: 2px solid #bbb77790;
+	width: 500px; 
+	height: 40px; 
+
+	margin-left: 0px;
+	margin-top: 1vh;
+
+
+	font-size: 30px;
+	font-family: Calibri, sans-serif;
+	color: #bbb777FF;
+	text-align: center;
+	line-height: 40px;
+}
+
+.RightTitle {
+	margin-top: -240px;
+	margin-left: 500px;
+}
+
+.TextRuta {
+	width: 450px;
+	height: 200px;
+
+	margin-top: 2vw;
+	margin-left: 2vw;
+
+	float: left;
+	font-size: 20px;
+	font-family: Calibri, sans-serif;
+	color: #EEE;
+	text-align: justify;
+}
+
+.RightTAdd {
+	margin-left: 500px;
+}
+
+.RightImage {
+	border:	2px solid #FFF;
+	width: 450px;
+
+	margin-left: 525px;
+	margin-top: -240px;
+}
+
+.LeftImage {
+	border: 2px solid #FFF;
+	width: 450px;
+
+	margin-top: 10px;
+}
+
+
+.MiddleLine {
+	border-bottom: 5px solid #bbb777;
+	width: 65%;
+
+
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

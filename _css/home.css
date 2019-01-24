@@ -1,0 +1,49 @@
+/*CSS-Dokument*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+}
+
+
+#TitleBox {
+	border-top: 0.2vh solid #bbb77790; 
+	border-bottom: 0.2vh solid #bbb77790;
+	width: 500px; 
+	height: 40px; 
+
+	margin-left: 5vw;
+	margin-top: 1vh;
+
+
+	font-size: 30px;
+	font-family: Calibri, sans-serif;
+	color: #bbb777FF;
+	text-align: center;
+	line-height: 40px;
+}
+
+#TextRuta {
+	width: 450px;
+	height: 100px;
+
+	margin-top: 2vw;
+	margin-left: 7vw;
+
+	font-size: 20px;
+	font-family: Calibri, sans-serif;
+	color: #EEE;
+	text-align: justify;
+}
+
+#RightImage {
+	border:	2px solid #FFF;
+	width: 450px;
+
+	margin-left: 600px;
+	margin-top: -170px;
+}

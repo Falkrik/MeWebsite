@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Parkourst</title>
+
+	<link rel="stylesheet" type="text/css" href="_css/index.css">
+	<script type="text/javascript" src="_java/index.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="_img/GameIcon.png" />
+
+</head>
+<body>
+	<img src="_img/BG3.png" id="BG">
+	<img src="_img/fade.png" id="Fade">
+	<img src="_img/logo.png" id="Logotype">
+
+	<div id="MiddleLine">
+		<p>EN VÄRLD FYLLD AV FAROR</p>
+
+		<ul>
+			<li><a onclick="loadPage('home.html', 300)">HEM</a></li>
+			<li><a onclick="loadPage('about.html', 2700)">BAKGRUND</a></li>
+			<li><a onclick="loadPage('media.html', 1000)">MEDIA</a></li>
+			<li><a onclick="loadPage('press.html', 500)">PRESS</a></li>
+		</ul>
+	</div>
+
+	<iframe scrolling="no" id="BigFrame" src="home.html"></iframe>
+
+
+	<div id="Footer">
+		<a onclick="loadPage('home.html', 300)"><img src="_img/logo.png"></a>
+		<p>&#169;2018 DRAGONDOG STUDIOS, INC. ALL RIGHTS RESERVED</p>
+	</div>
+
+</body>
+</html>
