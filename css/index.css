@@ -34,16 +34,16 @@ body{
 
 
 #MiddleLine {
-	border-top: 0.2vh solid #bbb77770;
-	border-bottom: 0.2vh solid #bbb77770;
+	border-top: 0.2vw solid #bbb77770;
+	border-bottom: 0.2vw solid #bbb77770;
 	background-color: #003377;
-	height: 7vh;
+	height: 4vw;
 	width: 75%;
 	margin: auto;
 
 	position: relative;
-	margin-top: -13vh;
-	margin-bottom: -60px;
+	margin-top: -5vw;
+	margin-bottom: -5vw;
 
 
 }
