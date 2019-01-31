@@ -13,37 +13,37 @@ body{
 #TitleBox {
 	border-top: 0.2vh solid #bbb77790; 
 	border-bottom: 0.2vh solid #bbb77790;
-	width: 500px; 
-	height: 40px; 
+	width: 40vw; 
+	height: 3vw; 
 
 	margin-left: 5vw;
-	margin-top: 1vh;
+	margin-top: 1vw;
 
 
-	font-size: 30px;
+	font-size: 2.5vw;
 	font-family: Calibri, sans-serif;
 	color: #bbb777FF;
 	text-align: center;
-	line-height: 40px;
+	line-height: 3vw;
 }
 
 #TextRuta {
-	width: 450px;
-	height: 100px;
+	width: 35vw;
+	height: 8vw;
 
 	margin-top: 2vw;
 	margin-left: 7vw;
 
-	font-size: 20px;
+	font-size: 1.6vw;
 	font-family: Calibri, sans-serif;
 	color: #EEE;
 	text-align: justify;
 }
 
 #RightImage {
-	border:	2px solid #FFF;
-	width: 450px;
+	border:	0.2vw solid #FFF;
+	width: 35vw;
 
-	margin-left: 600px;
-	margin-top: -170px;
+	margin-left: 48vw;
+	margin-top: -13vw;
 }

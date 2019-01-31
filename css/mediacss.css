@@ -15,24 +15,24 @@ body{
 }
 
 .Image {
-	border: 2px solid #FFF;
+	border: 0.2vw solid #FFF;
 
-	width: 350px;
-	margin-left: 7.5px;
-	margin-right: 7.5px;
-	margin-top: 10px;
+	width: 27vw;
+	margin-left: 0.7vw;
+	margin-right: 0.7vw;
+	margin-top: 1vw;
 }
 
 #HeaderBox {
 	width: 100%; 
-	height: 50px;
+	height: 4vw;
 
 	margin: auto;
-	margin-bottom: 20px;
+	margin-bottom: 6vw;
 
 	color: #FFF;
-	font-size: 50px;
+	font-size: 8vw;
 	font-family: Calibri, sans-serif;
 	text-align: center;
-	line-height: 50px;
+	line-height: 6vw;
 }

@@ -11,30 +11,31 @@
 
 </head>
 <body>
-	<div id="BGDiv">
-		<img src="img/BG3.png" id="BG">
-		<img src="img/logo.png" id="Logotype">		
+	<div id="Container">
+		<div id="BGDiv">
+			<img src="img/BG3.png" id="BG">
+			<img src="img/logo.png" id="Logotype">		
+		</div>
+
+
+		<div id="MiddleLine">
+			<p>EN VÄRLD FYLLD AV FAROR</p>
+
+			<ul>
+				<li><a onclick="loadPage('home.html', 25)">HEM</a></li>
+				<li><a onclick="loadPage('about.html', 220)">BAKGRUND</a></li>
+				<li><a onclick="loadPage('media.html', 80)">MEDIA</a></li>
+				<li><a onclick="loadPage('press.html', 40)">PRESS</a></li>
+			</ul>
+		</div>
+
+		<iframe scrolling="no" id="BigFrame" src="home.html"></iframe>
 	</div>
 
-
-	<div id="MiddleLine">
-		<p>EN VÄRLD FYLLD AV FAROR</p>
-
-		<ul>
-			<li><a onclick="loadPage('home.html', 300)">HEM</a></li>
-			<li><a onclick="loadPage('about.html', 2700)">BAKGRUND</a></li>
-			<li><a onclick="loadPage('media.html', 1000)">MEDIA</a></li>
-			<li><a onclick="loadPage('press.html', 500)">PRESS</a></li>
-		</ul>
-	</div>
-
-	<iframe scrolling="no" id="BigFrame" src="home.html"></iframe>
-
-
-	<div id="Footer">
+	<footer id="Footer">
 		<a onclick="loadPage('home.html', 300)"><img src="img/logo.png"></a>
 		<p>&#169;2018 DRAGONDOG STUDIOS, INC. ALL RIGHTS RESERVED</p>
-	</div>
+	</footer>
 
 </body>
 </html>

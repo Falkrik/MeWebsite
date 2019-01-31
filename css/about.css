@@ -11,76 +11,77 @@ body{
 
 #HeaderBox {
 	width: 100%; 
-	height: 50px;
+	height: 4vw;
 
 	margin: auto;
-	margin-bottom: 20px;
+	margin-bottom: 6vw;
 
 	color: #FFF;
-	font-size: 50px;
+	font-size: 8vw;
 	font-family: Calibri, sans-serif;
 	text-align: center;
-	line-height: 50px;
+	line-height: 6vw;
 }
 
 .RowBox {
-	width: 1005px;
-	height: 300px;
+	width: 90vw;
+	height: 25vw;
 
-	margin-left: 7vw;
+	margin-left: 8vw;
+	margin-right: auto;
+
 }
 
 .TitleBox {
 	border-top: 2px solid #bbb77790; 
 	border-bottom: 2px solid #bbb77790;
-	width: 500px; 
-	height: 40px; 
+	width: 40vw; 
+	height: 3vw; 
 
-	margin-left: 0px;
-	margin-top: 1vh;
+	margin-top: 1vw;
 
 
-	font-size: 30px;
+	font-size: 2.5vw;
 	font-family: Calibri, sans-serif;
 	color: #bbb777FF;
 	text-align: center;
-	line-height: 40px;
+	line-height: 3vw;
 }
 
 .RightTitle {
-	margin-top: -240px;
-	margin-left: 500px;
+	margin-top: -22vw;
+	margin-left: 40vw;
 }
 
 .TextRuta {
-	width: 450px;
-	height: 200px;
+	width: 36vw;
+	height: 20vw;
 
 	margin-top: 2vw;
 	margin-left: 2vw;
 
 	float: left;
-	font-size: 20px;
+	font-size: 1.6vw;
 	font-family: Calibri, sans-serif;
 	color: #EEE;
 	text-align: justify;
 }
 
 .RightTAdd {
-	margin-left: 500px;
+	margin-left: 42vw;
 }
 
 .RightImage {
-	border:	2px solid #FFF;
-	width: 450px;
+	border:	0.2vw solid #FFF;
+	width: 35vw;
 
-	margin-left: 525px;
-	margin-top: -240px;
+	margin-left: 41vw;
+	margin-top: -25vw;
 }
 
 .LeftImage {
-	border: 2px solid #FFF;
-	width: 450px;
+	border: 0.2vw solid #FFF;
+	width: 35vw;
 
 	margin-top: 10px;
 }
@@ -91,7 +92,8 @@ body{
 	width: 65%;
 
 
-	margin-left: 150px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1vw;
+	margin-bottom: 3vw;
 }

@@ -22,6 +22,6 @@ function loadPage(url, pix) {
 	frame.src = url;
 
 
-	frame.style.height = pix + 'px';
+	frame.style.height = pix + 'vw';
 
 }
